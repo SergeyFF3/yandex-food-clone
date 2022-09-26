@@ -1,0 +1,34 @@
+.wrapper {
+    background: #fff;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    background: gray;
+}
+
+.dialogImg {
+    height: 400px;
+    width: 400px;
+    background: mediumvioletred;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.dialogItem {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.dialogBot {
+    position: relative;
+    z-index: 1;
+    padding: 15px;
+    background: rgba(128, 128, 128, .1);
+    height: 100%;
+    bottom: 0;;
+}

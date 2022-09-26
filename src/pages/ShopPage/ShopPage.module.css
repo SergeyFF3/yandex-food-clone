@@ -1,0 +1,10 @@
+.dialog {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    /*flex: 1;*/
+    background: rgba(128, 128, 128, .1);
+    height: 100%;
+}

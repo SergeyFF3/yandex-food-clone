@@ -1,0 +1,70 @@
+.wrapper {
+    position: relative;
+    display: flex;
+}
+
+.timeItem {
+    border: 0;
+    height: 56px;
+    padding: 12px;
+    min-width: 56px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    padding-right: 18px;
+    margin-right: 10px;
+}
+
+.timeItem:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.time {
+    line-height: 1em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ratingItem {
+    border: 0;
+    height: 56px;
+    padding: 12px;
+    min-width: 56px;
+    background: rgba(255, 255, 255, 0.8);
+    margin-right: 8px;
+    border-radius: 16px;
+    padding-right: 18px;
+    margin-right: 10px;
+}
+
+.ratingItem:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.rating {
+    line-height: 1em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.reviews {
+    opacity: 0.5;
+    font-size: 13px;
+    line-height: 14px;
+    text-align: left;
+}
+
+.infoItem {
+    border: 0;
+    height: 56px;
+    display: flex;
+    min-width: 56px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoItem:hover {
+    background: rgba(255, 255, 255, 0.9);
+}

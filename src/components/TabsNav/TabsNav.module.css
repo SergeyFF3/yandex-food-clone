@@ -1,0 +1,9 @@
+.row {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    border-radius: 22px;
+    margin-bottom: 24px;
+    justify-content: space-between;
+    background-color: #f5f4f2;
+}

@@ -1,0 +1,105 @@
+.shopRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    color: #1976d2;
+    font-size: 45px;
+    line-height: 48px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 900;
+    margin: 0 0 10px 0;
+}
+
+.btn {
+    position: relative;
+    width: 80px;
+    font-size: 16px;
+    color: #21201f;
+    padding: 13px 18px 13px 10px;
+    font-weight: 500;
+    border-radius: 16px;
+    background-color: #f1f0ed;
+    border: none;
+    transition: .2s ease-out;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    z-index: 10;
+    width: 6px;
+    height: 1px;
+    background: #000;
+    transform: rotate(45deg);
+}
+
+.btn:before {
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    z-index: 10;
+    width: 6px;
+    height: 1px;
+    background: #000;
+    transform: rotate(-45deg);
+}
+
+.btn:hover {
+    background-color: #e7e6e4;
+    transition: .2s ease-out;
+}
+
+.shopList {
+    display: flex;
+}
+
+.card {
+    position: relative;
+    height: 130px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card:hover {
+    filter: brightness(110%);
+}
+
+a {
+    text-decoration: none
+}
+
+.shopName {
+    padding-top: 25px;
+    padding-left: 12px;
+    height: 85px;
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.time {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 130px;
+    border-radius: 16px 0 16px 16px;
+    height: 40px;
+    padding: 0 12px;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: rgba(0, 0, 0, .4);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    white-space: nowrap;
+}

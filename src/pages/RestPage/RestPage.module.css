@@ -1,0 +1,50 @@
+.content {
+    background: rgba(128, 128, 128, .1);
+}
+
+.header {
+    height: 320px;
+    padding: 40px 36px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    border-radius: 36px;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 60px;
+}
+
+.img {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    object-fit: cover;
+    object-position: 50% 50%;
+    background-image: url(../../image/food.png);
+    background-size: cover;
+}
+
+.gradient {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.66;
+    position: absolute;
+    background: linear-gradient(231.36deg, rgba(26, 0, 0, 0) 35.77%, #1A0000 90.7%);
+}
+
+.title {
+    position: relative;
+    top: 10px;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.cart {
+    position: sticky;
+}

@@ -1,0 +1,32 @@
+.wrapper {
+    position: relative;
+    height: 25px;
+    padding: 6px 12px 6px 20px;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(92,90,87,0.1);
+    max-width: 85%;
+}
+
+.text {
+    font-size: 11px;
+}
+
+.abs {
+    position: absolute;
+    background-color: rgb(90, 195, 26);
+    left: -8px;
+    fill: white;
+    bottom: 6px;
+    border-radius: 99px;
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 24px;
+    height: 24px;
+
+}
